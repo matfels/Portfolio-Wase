@@ -20,7 +20,7 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 body {
@@ -176,7 +176,7 @@ span {
 }
 
 .sobre-content h2 {
-    text-align: left;
+    text-align: center;
     line-height: 1.2; /* Altura da linha */
 }
 
@@ -356,6 +356,21 @@ span {
 }
 .contato {    
     background: var(--second-bg-color); /* Cor de fundo */}
+
+
+.nameCont {
+    background-color: var(--main-color);
+    padding: 5px;
+
+}
+
+.msgcontato{
+    background-color:#c3fbffda;
+    display: flex;
+    width: 300px;
+    text-align: center;
+}
+
 
 /* =======================================
    RESPONSIVIDADE (Telas menores)
