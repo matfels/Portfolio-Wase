@@ -176,6 +176,20 @@ span {
     width: 35vw; /* Largura da imagem */
 }
 
+#icon-sobre{
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    /*  background: transparent; */
+    border: .2rem solid var(--main-color); /* Borda dos botões  */
+    border-radius: 50%; /* Arredonda a borda */
+    font-size: 3em;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+}
+
 .heading {
   /*  text-align: center;*/
     font-size: 4.5rem; /* Tamanho da fonte para títulos de seção */
@@ -458,4 +472,33 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr; 
     }
+}
+
+/* =======================================
+   TEMA CLARO (LIGHT MODE)
+   ======================================= */
+body.light-mode {
+    --bg-color: #efefef;        /* Fundo bem claro, quase branco */
+    --second-bg-color: #dadada;   /* Fundo totalmente branco para contraste */
+    --text-color: #333333;        /* Texto cinza escuro para facilitar a leitura */
+    --main-color: #0078ff;        /* Azul forte para ter contraste no fundo claro */
+}
+
+/* Estilo do botão de tema no cabeçalho */
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Espaço entre o botão de tema e o menu mobile */
+}
+
+#theme-button {
+    font-size: 2.4rem;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+#theme-button:hover {
+    color: var(--main-color);
+    transform: scale(1.1);
 }

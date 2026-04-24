@@ -38,3 +38,22 @@ window.onscroll = () => {
     let header = document.querySelector('.header');
     header.classList.toggle('sticky', window.scrollY > 100);
 };
+
+/* =======================================
+   Mudar Tema (Dark/Light Mode)
+   ======================================= */
+let themeButton = document.querySelector('#theme-button');
+
+themeButton.onclick = () => {
+    // Liga ou desliga a classe 'light-mode' no corpo da página
+    document.body.classList.toggle('light-mode');
+    
+    // Troca o ícone (se estiver no modo claro, vira lua. Se não, volta pro sol)
+    if (document.body.classList.contains('light-mode')) {
+        themeButton.classList.remove('fa-sun');
+        themeButton.classList.add('fa-moon');
+    } else {
+        themeButton.classList.remove('fa-moon');
+        themeButton.classList.add('fa-sun');
+    }
+};
