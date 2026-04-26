@@ -185,7 +185,7 @@ span {
     /*  background: transparent; */
     border: .2rem solid var(--main-color); /* Borda dos botões  */
     border-radius: 50%; /* Arredonda a borda */
-    font-size: 3em;
+    font-size: 2em;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
 }
