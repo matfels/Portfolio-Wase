@@ -391,6 +391,11 @@ span {
     text-align: center;
 }
 
+label {
+    font-size: 1.5rem
+}
+
+
 
 /* =======================================
    RESPONSIVIDADE (Telas menores)
