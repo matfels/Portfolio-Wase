@@ -17,6 +17,7 @@
     --second-bg-color: #323946;
     --text-color: #fff;
     --main-color: #0ef;
+    --cor-borda-foto: #0ef;
 }
 
 html {
@@ -87,6 +88,13 @@ section {
 .inicio-img img { /* Animação na foto */
     width: 35vw;
     animation: floatImage 7s ease-in-out infinite;
+    
+}
+
+#foto {
+    border: 7px solid var(--cor-borda-foto);
+    box-shadow: 0 0 10px var(--cor-borda-foto);
+    
 }
 
 @keyframes floatImage { /* instrução da animação da foto */
@@ -385,7 +393,7 @@ span {
 }
 
 .msgcontato{
-    background-color:#c3fbffda;
+    background-color:#ebf5f7da;
     display: flex;
     width: 300px;
     text-align: center;
@@ -471,6 +479,7 @@ label {
         width: 70vw; 
         height: 70vw;
         margin-bottom: 3rem;
+        
     }
 
     /* Deixa os projetos do portfólio em apenas 1 coluna (um embaixo do outro) */
@@ -482,11 +491,13 @@ label {
 /* =======================================
    TEMA CLARO (LIGHT MODE)
    ======================================= */
-body.light-mode {
+body.light-mode   {
     --bg-color: #efefef;        /* Fundo bem claro, quase branco */
     --second-bg-color: #dadada;   /* Fundo totalmente branco para contraste */
     --text-color: #333333;        /* Texto cinza escuro para facilitar a leitura */
     --main-color: #0078ff;        /* Azul forte para ter contraste no fundo claro */
+    --cor-borda-foto: #0078ff;
+    
 }
 
 /* Estilo do botão de tema no cabeçalho */
