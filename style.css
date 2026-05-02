@@ -337,37 +337,6 @@ span {
     color: var(--second-bg-color); /* Cor do ícone */
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 2rem 9%;
-    background: var(--second-bg-color);
-}
-
-.footer-text p {
-    font-size: 1.6rem; /* Tamanho da fonte do texto do rodapé */
-}
-
-.footer-iconTop a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: .8rem;
-    background: var(--main-color);
-    border-radius: .8rem;
-    transition: .5s ease;
-}
-
-.footer-iconTop a:hover {
-    box-shadow: 0 0 1rem var(--main-color); /* Adiciona um brilho no hover */
-}
-
-.footer-iconTop a i {
-    font-size: 2.4rem;
-    color: var(--second-bg-color); /* Cor do ícone */
-}
 
 /* ===== */
 .container {
@@ -403,7 +372,9 @@ label {
     font-size: 1.5rem
 }
 
-
+.tab-bar {
+    display: none;
+}
 
 /* =======================================
    RESPONSIVIDADE (Telas menores)
@@ -424,21 +395,39 @@ label {
 
 /* Para Celulares (Telas até 768px) */
 @media (max-width: 768px) {
-    /* Ativa o menu hambúrguer */
-    #menu-icon {
-        display: block; 
-    }
-    
-    /* Esconde o menu de texto e o transforma em uma lista clicável */
-    .navbar {
-        position: absolute;
-        top: 100%;
+
+/* Faz o menu aparecer apenas aqui */
+    .tab-bar {
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
         left: 0;
         width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0,0,0,.2);
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+        height: 65px;
+        background-color: var(--second-bg-color);
+        border-top: 2px solid var(--cor-borda-foto); /* Usando a variável da borda */
+        z-index: 1000;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .tab-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-texto);
+        font-size: 1.0rem;
+    }
+
+    .tab-item i {
+        font-size: 1.3rem;
+        margin-bottom: 3px;
+    }
+
+    /* Esconde o menu de texto e o transforma em uma lista clicável */
+    .navbar {
         display: none; 
     }
     
