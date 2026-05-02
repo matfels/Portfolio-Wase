@@ -1,6 +1,6 @@
 /* Efeito de digitação */
 var typed = new Typed('.multiple-text', {
-    strings: ['Dev Back-End', 'Dev Front-End', 'Full-Stack' ],
+    strings: ['Back-End', 'Front-End' ],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
