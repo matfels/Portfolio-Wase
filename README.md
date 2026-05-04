@@ -1,91 +1,31 @@
-# Portfólio Pessoal | Matheus Melo
+# 👋 Olá, eu sou o Matheus Melo! 
 
-[![Badge de Licença](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Badge de Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-brightgreen)](matfels/portifolio/Portifolio-main/index.html)
+Este aqui é o meu portfólio profissional, um projeto que desenvolvi com muito entusiasmo para o desafio **WASE STAR** da **WASE**. Mais do que apenas um site, esta página é um reflexo da minha jornada atual: a transição da Infraestrutura de TI para o Desenvolvimento Fullstack.
 
-> Desenvolvedor **Full-Stack** com foco em resolver problemas de forma criativa. Bem-vindo ao meu portfólio!
-
-<p align="center">
-  <img src="caminho/para/screenshot.png" alt="Screenshot da tela inicial do Portfólio" width="800"/>
-</p>
+👉 **[Dê uma olhada no projeto ao vivo!](https://matfels.github.io/Portfolio-Wase/)**
 
 ---
 
-## 📖 Sobre o Projeto
+## 🎯 O Objetivo
+Criei esta página para centralizar minha trajetória, meus estudos e o que venho construindo. Ela foi pensada para ser limpa, rápida e, acima de tudo, útil para quem deseja conhecer meu trabalho técnico e meu perfil acadêmico.
 
-Este é meu portfólio pessoal e profissional, uma página construída com o objetivo de demonstrar habilidades técnicas em desenvolvimento Front-End e apresentar uma visão sobre a jornada de aprendizado em tecnologias Back-End e Mobile.
+## 🛠️ O que usei para construir?
+Decidi manter a base sólida e focar no domínio do front-end essencial:
+- **HTML5 & CSS3**: Para garantir que tudo esteja no lugar certo e com uma aparência moderna (usei muitas variáveis CSS para facilitar o Dark Mode!).
+- **JavaScript**: Ele é o responsável pela escrita dinâmica e pela troca de temas.
+- **Formspree**: Uma solução prática que encontrei para tornar o formulário funcional sem complicar o back-end desnecessariamente.
 
+## ✨ Os meus "toques especiais" (Diferenciais)
+Nesse projeto, eu não queria apenas entregar o básico. Eu quis colocar a experiência de quem usa o site em primeiro lugar:
+- **Navegação de "App" no celular**: Percebi que menus no topo são ruins para usar com uma mão só. Então, criei uma **Tab Bar inferior** automática para quando você acessa pelo celular.
+- **Respeito ao seu sistema**: Se o seu computador já estiver no Modo Escuro, o meu site vai te receber assim automaticamente.
+- **Animações pensadas**: O efeito de digitação não é só estético; ele serve para mostrar rapidamente minha versatilidade como Dev em formação.
 
-### 🛠️ Tecnologias Utilizadas
-
-Este projeto foi construído primariamente com as bases do desenvolvimento web e utiliza bibliotecas leves para aprimorar a experiência.
-
-* **Linguagens Fundamentais:**
-    * HTML5
-    * CSS3
-    * JavaScript
-* **Habilidades e Outras Tecnologias Mencionadas:**
-    * Python
-    * NodeJS
-    * React-Native
-* **Bibliotecas/Frameworks:**
-    * [Typed.js](https://typedjs.com/): Para o efeito de digitação na seção "Início".
-    * [Font Awesome](https://fontawesome.com/): Para os ícones de redes sociais e de serviço.
-
----
-
-## 🚀 Começando
-
-Estas instruções permitirão que você obtenha uma cópia do projeto em funcionamento na sua máquina local para visualização ou desenvolvimento. Por ser um site estático, o processo é bastante simples.
-
-### ✅ Pré-requisitos
-
-Você só precisará de um navegador web moderno (como Chrome, Firefox, Edge, etc.).
-
-### ⚙️ Instalação
-
-1.  **Clone o repositório:**
-    ```sh
-    git clone [https://github.com/seu-usuario/seu-repo.git](https://github.com/seu-usuario/seu-repo.git)
-    ```
-2.  **Navegue até o diretório do projeto:**
-    ```sh
-    cd seu-repo
-    ```
-
----
-
-## 🎮 Como Usar
-
-Para visualizar o portfólio, basta abrir o arquivo `index.html` em seu navegador:
-
-1.  Localize o arquivo **`index.html`** no diretório clonado.
-2.  Clique duas vezes no arquivo, ou clique com o botão direito e selecione **"Abrir com..."** e escolha seu navegador preferido.
-
-O site será carregado e você poderá navegar pelas seções: `Início`, `Sobre mim`, `Serviços`, `Portfólio` e `Contato`.
-
----
-
-## 🤝 Contribuição
-
-Contribuições, issues e sugestões são bem-vindas! Sinta-se à vontade para bifurcar (fork) este repositório e enviar pull requests.
-
-1.  Faça o fork do projeto.
-2.  Crie uma branch para sua funcionalidade (`git checkout -b feature/AmazingFeature`).
-3.  Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`).
-4.  Push para a branch (`git push origin feature/AmazingFeature`).
-5.  Abra um Pull Request.
-
----
+## 🚀 Como testar na sua máquina
+Se quiser ver o código de perto, é só seguir esses passos:
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/matfels/Portfolio-Wase.git](https://github.com/matfels/Portfolio-Wase.git)
 
 
-## 📧 Contato
-
-**Matheus Melo** - Seus contatos estão disponíveis nas redes sociais e na seção de contato do portfólio:
-
-* LinkedIn: [matheusferreirademelo](https://www.linkedin.com/in/matheusferreirademelo/)
-* GitHub: [matfels](https://github.com/matfels)
-* Instagram: [matfels_](https://www.instagram.com/matfels_/)
-* E-mail: (A ser adicionado na seção de contato)
-
-Link do Projeto: https://matfels.github.io/Portfolio/ 
+   <img src="img/Portfolio.png" alt="Screenshot da tela inicial do Portfólio" width="800"/>
