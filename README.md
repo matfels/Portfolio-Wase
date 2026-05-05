@@ -27,5 +27,5 @@ Se quiser ver o código de perto, é só seguir esses passos:
    ```bash
    git clone [https://github.com/matfels/Portfolio-Wase.git](https://github.com/matfels/Portfolio-Wase.git)
 
-
+    ```
    <img src="img/Portfolio.png" alt="Screenshot da tela inicial do Portfólio" width="800"/>
