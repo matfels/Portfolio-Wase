@@ -377,7 +377,7 @@ label {
 }
 
 /* =======================================
-   RESPONSIVIDADE (Telas menores)
+               RESPONSIVIDADE 
    ======================================= */
 
 /* Para Tablets (Telas até 991px) */
@@ -478,7 +478,7 @@ label {
 }
 
 /* =======================================
-   TEMA CLARO (LIGHT MODE)
+         TEMA CLARO (LIGHT MODE)
    ======================================= */
 body.light-mode   {
     --bg-color: #efefef;        /* Fundo bem claro, quase branco */
